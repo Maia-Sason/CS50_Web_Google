@@ -1,0 +1,99 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.google_logo {
+    height: 92px;
+    width: 272px;
+}
+
+.google {
+    min-height: 100px;
+    min-width: 400px;
+    position: relative;
+    padding-top: 109px;   
+}
+
+.google_container {
+    margin: 25px;
+}
+
+.form_field {
+    width: 698px;
+    height: 60vh;
+}
+
+.input_area {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    
+}
+
+.input_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    height: 44px;
+    width: 482px;
+    border-radius: 24px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+    width: auto;
+    padding-right: 10px;
+    padding-top: 1px;
+    z-index: 3;
+
+}
+
+.input_child {
+}
+
+.text_input {
+    width: 426px;
+    height: 34px;
+    outline: none;
+    justify-content: center;
+    border-style: hidden;
+    font-size: 15px;
+    flex-flow: row wrap;
+
+
+}
+
+.search_icon {
+    height: 44px;
+    width: 33px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.icon_svg {
+    height: 20px;
+    width: 20px;
+}
+
+.button_div {
+    top: 52px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+}
+
+.google_btn {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    min-width: 54px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
