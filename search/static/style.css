@@ -15,6 +15,16 @@ body {
     width: 272px;
 }
 
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: -5px;
+    white-space: nowrap;
+    left: -60px;
+}
+
 .google {
     min-height: 100px;
     min-width: 400px;
@@ -40,35 +50,38 @@ body {
 }
 
 .input_wrapper {
+    
     display: flex;
     flex-flow: row wrap;
     flex-wrap: wrap;
     height: 44px;
-    max-width: 482px;
     border-radius: 24px;
     background: #fff;
     border: 1px solid #dfe1e5;
     margin: 0 auto;
-    width: 472px;
     padding-right: 10px;
     padding-top: 1px;
     z-index: 3;
     flex-basis: fit-content;
 }
 
+.input_wrapper:hover {
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    border: transparent solid 1px;
+}
+
 .input_child {
 }
 
 .text_input {
-    max-width: 426px;
-    min-width: 100px;
-    
+    width: 426px;
+    flex-shrink: 2;
     height: 34px;
     outline: none;
     justify-content: center;
     border-style: hidden;
     font-size: 15px;
-
+    margin-right: 4px;
 }
 
 .search_icon {
@@ -77,6 +90,20 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+.blue {
+    fill: #4285f4;
+    border-style: none;
+    outline: none;
+    background: none;
+    margin: 0;
+    
+}
+
+.blue_icon_svg {
+    height: 25px;
+    width: 25px;
 }
 
 .icon_svg {
