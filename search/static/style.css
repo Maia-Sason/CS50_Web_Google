@@ -1,6 +1,13 @@
 body {
     font-family: arial, sans-serif;
     font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 
 .google_logo {
@@ -37,30 +44,30 @@ body {
     flex-flow: row wrap;
     flex-wrap: wrap;
     height: 44px;
-    width: 482px;
+    max-width: 482px;
     border-radius: 24px;
     background: #fff;
     border: 1px solid #dfe1e5;
     margin: 0 auto;
-    width: auto;
+    width: 472px;
     padding-right: 10px;
     padding-top: 1px;
     z-index: 3;
-
+    flex-basis: fit-content;
 }
 
 .input_child {
 }
 
 .text_input {
-    width: 426px;
+    max-width: 426px;
+    min-width: 100px;
+    
     height: 34px;
     outline: none;
     justify-content: center;
     border-style: hidden;
     font-size: 15px;
-    flex-flow: row wrap;
-
 
 }
 
@@ -81,7 +88,6 @@ body {
     top: 52px;
     padding-top: 18px;
     padding-bottom: 18px;
-    
 }
 
 .google_btn {
@@ -94,6 +100,37 @@ body {
     text-align: center;
     min-width: 54px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
+}
+
+.google_btn:hover {
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.footer {
+    background: #f2f2f2;
+    border-top: 1px solid rgb(218, 220, 224);
+    width: 100%;
+    position: absolute;
+    min-height: 30px;
+    bottom: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.footer_item {
+   margin-bottom: 10px;
+   margin-top: 10px;
+   color: #70757a;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.footer_item:hover {
+    text-decoration: underline;
 }
