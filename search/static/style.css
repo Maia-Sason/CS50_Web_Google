@@ -158,6 +158,44 @@ body {
    text-decoration: none;
 }
 
+.title {
+    font-size: 20px;
+    margin: 25px 35px;
+    color: #d93025;
+}
+
+.border {
+    margin: 40px 2% 0 40px;
+}
+
 .footer_item:hover {
     text-decoration: underline;
+}
+
+.question {
+    position: relative;
+    display: flex;
+}
+
+.question > div {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+}
+
+.question > div > input {
+    width: 80%;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.div_in {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
 }

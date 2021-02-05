@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="static/style.css">
     </head>
     <body>
-        <div class="main_wrapper">
+        <div class="adv_wrapper">
             <div class="nav_advanced">
                 <a>#</a>
                 <a>#</a>
@@ -15,7 +15,7 @@
             </div>
             <div class="line"></div>
             <div class="border">
-                <form class="form_adv" action="/search" method="GET" name="f">
+                <form class="form_adv"  action="https://google.com/search">
                 <div class="header">
                     <div>
                         <div>
@@ -27,22 +27,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="question">
-                    <div class="div_q">
-                        <div>
-                            <label>all these words...</label>
+                <div class="question_section">
+                    <div class="question">
+                        <div class="div_q">
+                            <div>
+                                <label>all these words...</label>
+                            </div>
+                        </div>
+                        <div class="div_in">
+                            <input name="as_q" type="text">
+                        </div>
+                        <div class="div_info">
+                            Important words: 
+                            <span>rat</span>
                         </div>
                     </div>
-                    <div class="div_in"></div>
-                    <div class="div_info">
-                        Important words: 
-                        <span>rat</span>
+                    <div class="question">
+                        <div class="div_q">
+                            <div>
+                                <label>this exact word or phrase</label>
+                            </div>
+                        </div>
+                        <div class="div_in">
+                            <input name="as_epq">
+                        </div>
+                        <div class="div_info">
+                            Important words: 
+                            <span>rat</span>
+                        </div>
                     </div>
                 </div>
                 <div class="line"></div>
                 <div class="header"></div>
-                <div class="question"></div>
+                <div class="question_section"></div>
                 <div class="line"></div>
+                <input type="submit">
                 </form>
             </div>
         
