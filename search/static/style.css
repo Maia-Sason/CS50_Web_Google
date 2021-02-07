@@ -160,12 +160,58 @@ body {
 
 .title {
     font-size: 20px;
-    margin: 25px 35px;
+    margin: 25px 50px;
     color: #d93025;
 }
 
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.line_variant {
+    border-bottom: 1px solid #ebebeb;
+    clear: both;
+    margin: 18px 0;
+}
+
+.nav_advanced {
+    background: #f1f1f1;
+    height: 60px;
+    width: 100%;
+}
+
+.nav_advanced > div {
+    line-height: 5px;
+    vertical-align: middle;
+}
+
+.nav_g_master {
+    padding: 15px 20px 0 15px;
+    float: left;
+}
+
+.link {
+    padding: 20px 20px 20px 15px;
+    float: right;
+}
+
+.nav_g_container .nav_google {
+    display: block;
+    background-position: 0 -35px;
+    height: 33px;
+    width: 92px;
+}
+
+.nav_google {
+    background: url('../images/google_icon.png');
+    background-size: 528px 68px;
+}
+
 .border {
-    margin: 40px 2% 0 40px;
+    margin: 40px 2% 0 50px;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
 }
 
 .footer_item:hover {
@@ -173,13 +219,14 @@ body {
 }
 
 .question {
+    padding-bottom: 15px;
+    clear: both;
     position: relative;
     display: flex;
 }
 
 .question > div {
-    float: left;
-    display: inline-block;
+    line-height: 30px;
     min-width: 167px;
     width: 16%;
 }
@@ -192,10 +239,47 @@ body {
 }
 
 .div_in {
+    flex-basis: 53%;
+}
+
+.div_info {
+   position: relative;
+}
+
+.div_info > * {
+    
+}
+
+.adv_input {
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
-    padding: 1px 8px;
+    width: 100%;
+}
+
+.header {
+    font-size: 16px;
+    color: #333;
+}
+
+.to_do_in_search {
+    height: 30px;
+    width: 200px;
+    margin-left: -10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
+.div_info_text {
+    color: #555;
+    font-size: 11px;
+}
+
+.div_info_text > span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
 }
